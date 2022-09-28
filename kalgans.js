@@ -2,7 +2,7 @@
 › Create By Haikal
 › Base Ori Haikal
 
-🌷 KALAU MAU RENAME TARO CREDITS GUA : HW MODS WA */
+🌷 KALAU MAU RENAME TARO CREDITS GUA : ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰ */
 
 require('./hwkal')
 const { default: makeWASocket, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
@@ -165,7 +165,7 @@ fileLength: 99999999999999,
 caption: he,
 contextInfo:{externalAdReply:{
 title: `Jangan Lupa Tersenyum ☺️`,
-body: `SUBSCRIBE HW MODS WA`,
+body: `𝐅𝐎𝐋𝐋𝐎𝐖 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
@@ -186,7 +186,7 @@ fileLength: 99999999999999,
 caption: he,
 contextInfo:{externalAdReply:{
 title: `Jangan Lupa Tersenyum ☺️`,
-body: `SUBSCRIBE HW MODS WA`,
+body: `𝐅𝐎𝐋𝐋𝐎𝐖 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
@@ -231,7 +231,7 @@ let list = []
 for (let i of kon) {
 list.push({
 displayName: await haikal.getName(i + '@s.whatsapp.net'),
-vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await haikal.getName(i + '@s.whatsapp.net')}\nFN:${await haikal.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:denyp857@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://https://www.instagram.com/hikal_857/?hl=id\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`})}
+vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await haikal.getName(i + '@s.whatsapp.net')}\nFN:${await haikal.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:mawangulo133@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://https://www.instagram.com/wannzx_133/?hl=id\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`})}
 //=================================================//
 haikal.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })}
 //=================================================//
