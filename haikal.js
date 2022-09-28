@@ -130,7 +130,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "14169948404-1305080833
 "externalAdReply": {
 "previewType": "PHOTO",
 "showAdAttribution": true,
-"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133,
+"sourceUrl": `https://instagram.com/wannzx_133`,
 "thumbnailUrl": 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
 "thumbnail": kalimage
 }}}
@@ -154,22 +154,15 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "" } : {})
 //=================================================//
 //=================================================//
 const bal= (teks) => {
-haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰ ${ngazap(prefix)}`,"body": `࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰ ${ngazap(prefix)}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133}}}, { quoted: doc })
+haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰ ${ngazap(prefix)}`,"body": `࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰ ${ngazap(prefix)}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://instagram.com/wannzx_133`}}}, { quoted: doc })
 } 
 // Target
 const reply = (teks) => {
-return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133}}}, { quoted: hw })
+return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰ ${ngazap(prefix)}`,"body": `࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰ ${ngazap(prefix)}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://instagram.com/wannzx_133`}}}, { quoted: hw })
 } 
 
 const anjay = (teks) => {
- haikal.sendMessage(m.chat, { image: kalimage, caption: teks, contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
+ haikal.sendMessage(m.chat, { image: kalimage, caption: teks, 
 }
 //=================================================//
 const deploy = (teks) => {
@@ -4366,8 +4359,6 @@ Base Script
 ©𝐖𝐚𝐧𝐧𝐳𝐱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
 }
-}}, { quoted:hw})
-}
 break
 //=================================================//
 case 'bot': {
@@ -4454,14 +4445,6 @@ cantik
 kesel
 ngeselin
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -4527,14 +4510,6 @@ holoh
 delttt
 suitpvp [@tag]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -4646,14 +4621,6 @@ ampas1  [ Contoh : Ampas1 628xxx ]
 ampas2 [Contoh : Ampas2 112674448xxx ]
 catalogpc [ Contoh : catalogpc 628xxx@s.whatsapp.net|10|10s ]
 cataloggc [ Contoh : cataloggc 1237891xxxx@g.us|10|10s ]▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -4695,8 +4662,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 
  *[ 🌷 ] primbonmenu* 
  
- ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-nomorhoki
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+ nomorhoki
  artimimpi
  artinama
  ramaljodoh
@@ -4727,14 +4694,6 @@ nomorhoki
  zodiak
  shio
  ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 case 'islamiyah': {
@@ -4782,14 +4741,6 @@ iqra
  juzamma
  tafsirsurah
  ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -4848,14 +4799,6 @@ antara-news
 cnn-news
 fajar-news 
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -4921,14 +4864,6 @@ linkgroup
  penjara
  intro
  ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -4983,14 +4918,6 @@ robot
 slow
 tupai
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -5046,14 +4973,6 @@ cecan-jepan
 cecan
 bokep
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -5107,14 +5026,6 @@ ytsearch [query]
 ringtone [query]
 searchgroups [query]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -5176,14 +5087,6 @@ styletext
 smeme
 ss [url]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -5235,14 +5138,6 @@ listmsg
 getmsg
 delmsg
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -5291,14 +5186,6 @@ getmusic [query]
 getvideo [query]
 mediafire [url]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -5363,14 +5250,6 @@ listgc
 listonline
 speedtest
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -5450,14 +5329,6 @@ darkjoke
 meme
 meme2
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
@@ -5662,14 +5533,6 @@ sound159
 sound160
 sound161
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
-contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
-}
-}}, { quoted:hw})
 }
 break
 //=================================================//
