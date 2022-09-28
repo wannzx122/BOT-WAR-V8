@@ -4364,12 +4364,7 @@ contact me Wa.me/6281265970249
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 Base Script
 ©𝐖𝐚𝐧𝐧𝐳𝐱
-▬▭▬▭▬▭▬▭▬▬▭▬▭▬`, contextInfo:{"externalAdReply": {"title": `𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 ࿇𝐖⃯𝐚⃕𝐧𝐧 𝐈⃬𝐭𝐬 𝐬͢𝐡𝐨᪼𝐰 𝐭𝐢⃬𝐦⃕𝐞㋰`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `"sourceUrl": `"sourceUrl": `https://instagram.com/wannzx_133`,
-thumbnailUrl: 'https://telegra.ph/file/ee284ae9bb30ab0200ccc.jpg', 
-thumbnail: kalimage,
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬`,
 }
 }}, { quoted:hw})
 }
